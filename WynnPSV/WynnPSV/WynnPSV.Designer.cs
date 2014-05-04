@@ -68,6 +68,8 @@
             this.totalDisp = new System.Windows.Forms.TextBox();
             this.rankDisp = new System.Windows.Forms.TextBox();
             this.skin = new System.Windows.Forms.PictureBox();
+            this.first = new System.Windows.Forms.Label();
+            this.firstDisp = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.skin)).BeginInit();
             this.SuspendLayout();
             // 
@@ -98,7 +100,7 @@
             this.playtime.AutoSize = true;
             this.playtime.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold);
             this.playtime.ForeColor = System.Drawing.Color.Purple;
-            this.playtime.Location = new System.Drawing.Point(8, 93);
+            this.playtime.Location = new System.Drawing.Point(8, 115);
             this.playtime.Name = "playtime";
             this.playtime.Size = new System.Drawing.Size(141, 22);
             this.playtime.TabIndex = 4;
@@ -109,7 +111,7 @@
             this.server.AutoSize = true;
             this.server.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold);
             this.server.ForeColor = System.Drawing.Color.Purple;
-            this.server.Location = new System.Drawing.Point(8, 71);
+            this.server.Location = new System.Drawing.Point(8, 93);
             this.server.Name = "server";
             this.server.Size = new System.Drawing.Size(245, 22);
             this.server.TabIndex = 5;
@@ -186,7 +188,7 @@
             this.logins.AutoSize = true;
             this.logins.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold);
             this.logins.ForeColor = System.Drawing.Color.Purple;
-            this.logins.Location = new System.Drawing.Point(8, 115);
+            this.logins.Location = new System.Drawing.Point(8, 137);
             this.logins.Name = "logins";
             this.logins.Size = new System.Drawing.Size(107, 22);
             this.logins.TabIndex = 12;
@@ -321,7 +323,7 @@
             this.serverDisp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.serverDisp.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.serverDisp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.serverDisp.Location = new System.Drawing.Point(249, 75);
+            this.serverDisp.Location = new System.Drawing.Point(246, 97);
             this.serverDisp.Name = "serverDisp";
             this.serverDisp.ReadOnly = true;
             this.serverDisp.Size = new System.Drawing.Size(185, 16);
@@ -333,7 +335,7 @@
             this.playTimeDisp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.playTimeDisp.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.playTimeDisp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.playTimeDisp.Location = new System.Drawing.Point(146, 97);
+            this.playTimeDisp.Location = new System.Drawing.Point(147, 119);
             this.playTimeDisp.Name = "playTimeDisp";
             this.playTimeDisp.ReadOnly = true;
             this.playTimeDisp.Size = new System.Drawing.Size(185, 16);
@@ -345,7 +347,7 @@
             this.loginsDisp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.loginsDisp.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loginsDisp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.loginsDisp.Location = new System.Drawing.Point(113, 119);
+            this.loginsDisp.Location = new System.Drawing.Point(121, 141);
             this.loginsDisp.Name = "loginsDisp";
             this.loginsDisp.ReadOnly = true;
             this.loginsDisp.Size = new System.Drawing.Size(185, 16);
@@ -515,6 +517,29 @@
             this.skin.TabIndex = 40;
             this.skin.TabStop = false;
             // 
+            // first
+            // 
+            this.first.AutoSize = true;
+            this.first.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold);
+            this.first.ForeColor = System.Drawing.Color.Purple;
+            this.first.Location = new System.Drawing.Point(8, 71);
+            this.first.Name = "first";
+            this.first.Size = new System.Drawing.Size(169, 22);
+            this.first.TabIndex = 41;
+            this.first.Text = "First Login";
+            // 
+            // firstDisp
+            // 
+            this.firstDisp.BackColor = System.Drawing.Color.Black;
+            this.firstDisp.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.firstDisp.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.firstDisp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.firstDisp.Location = new System.Drawing.Point(171, 75);
+            this.firstDisp.Name = "firstDisp";
+            this.firstDisp.ReadOnly = true;
+            this.firstDisp.Size = new System.Drawing.Size(185, 16);
+            this.firstDisp.TabIndex = 42;
+            // 
             // WynnPSV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -522,6 +547,8 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.CausesValidation = false;
             this.ClientSize = new System.Drawing.Size(850, 391);
+            this.Controls.Add(this.firstDisp);
+            this.Controls.Add(this.first);
             this.Controls.Add(this.skin);
             this.Controls.Add(this.rankDisp);
             this.Controls.Add(this.totalDisp);
@@ -614,6 +641,8 @@
         private System.Windows.Forms.TextBox totalDisp;
         private System.Windows.Forms.TextBox rankDisp;
         private System.Windows.Forms.PictureBox skin;
+        private System.Windows.Forms.Label first;
+        private System.Windows.Forms.TextBox firstDisp;
     }
 }
 

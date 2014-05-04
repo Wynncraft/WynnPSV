@@ -26,6 +26,8 @@ namespace WynnPSV
             try
             {
                 invalid.Visible = false;
+                bool noob = false;
+                if (p == "jnoob") { p = "J6Unlimited"; noob = true; }
                 WebRequest req = WebRequest.Create("http://wynncraft.com/api/public_api.php?action=playerStats&command=" + p);
                 WebResponse res = req.GetResponse();
                 Stream dataStream = res.GetResponseStream();
@@ -61,12 +63,22 @@ namespace WynnPSV
                 stats = b.Split(',');
                 sb.Clear();
                 skin.ImageLocation = "http://api.wynncraft.com/avatar/" + nameSearch.Text +"/64.png";
-                nameDisp.Text = nameSearch.Text; rankDisp.Text = stats[0].Split(':')[1]; 
-                loginDisp.Text = stats[1].Split(':')[1]; loginsDisp.Text = stats[10].Split(':')[1]; playTimeDisp.Text = stats[2].Split(':')[1]; serverDisp.Text = stats[3].Split(':')[1];
-                emeraldDisp.Text = stats[6].Split(':')[1]; itemsDisp.Text = stats[4].Split(':')[1]; chestsDisp.Text = stats[8].Split(':')[1]; blocksDisp.Text = stats[9].Split(':')[1];
-                mobsDisp.Text = stats[5].Split(':')[1]; pvpDisp.Text = stats[7].Split(':')[1]; deathsDisp.Text = stats[11].Split(':')[1];
-                waDisp.Text = stats[12].Split(':')[1]; maDisp.Text = stats[13].Split(':')[1]; arDisp.Text = stats[14].Split(':')[1]; assDisp.Text = stats[15].Split(':')[1]; totalDisp.Text = stats[16].Split(':')[1].TrimEnd('}');
+                if (noob) { skin.ImageLocation = "http://api.wynncraft.com/avatar/J6Unlimited/64.png"; }
+                nameDisp.Text = nameSearch.Text; rankDisp.Text = stats[0].Split(':')[1];
+                StringBuilder lol = new StringBuilder();
+                for (int i = 0; i <= (stats.GetLength(0) - 1); i++)
+                {
+                    string d = stats[i].Split(':')[1];
+                    lol.AppendFormat("{0}", d);
+                    lol.AppendLine();
+                }
+                File.WriteAllText("lol", lol.ToString());
+                loginDisp.Text = stats[1].Split(':')[1]; loginsDisp.Text = stats[12].Split(':')[1]; firstDisp.Text = stats[3].Split(':')[1].Remove(10);; playTimeDisp.Text = stats[2].Split(':')[1] + " hours"; serverDisp.Text = stats[5].Split(':')[1];
+                emeraldDisp.Text = stats[8].Split(':')[1]; itemsDisp.Text = stats[6].Split(':')[1]; chestsDisp.Text = stats[10].Split(':')[1]; blocksDisp.Text = stats[11].Split(':')[1];
+                mobsDisp.Text = stats[7].Split(':')[1]; pvpDisp.Text = stats[9].Split(':')[1]; deathsDisp.Text = stats[13].Split(':')[1];
+                waDisp.Text = stats[14].Split(':')[1]; maDisp.Text = stats[15].Split(':')[1]; arDisp.Text = stats[16].Split(':')[1]; assDisp.Text = stats[17].Split(':')[1]; totalDisp.Text = stats[18].Split(':')[1].TrimEnd('}');
                 if (serverDisp.Text == "null") { serverDisp.Text = "Not Online"; }
+                if (noob) nameDisp.Text = "J6Unlimited";
                 switch (rankDisp.Text)
                 {
                     case "Player":
@@ -76,7 +88,7 @@ namespace WynnPSV
                         rankDisp.ForeColor = Color.Green;
                         break;
                     case "Moderator":
-                        rankDisp.ForeColor = Color.Gold;
+                        rankDisp.ForeColor = Color.Orange;
                         break;
                     case "Administrator":
                         rankDisp.ForeColor = Color.Red;
@@ -85,6 +97,7 @@ namespace WynnPSV
                         rankDisp.ForeColor = Color.Gray;
                         break;
                 }
+                noob = false;
             }
             #region invalidNameException
             catch (System.Net.WebException)
