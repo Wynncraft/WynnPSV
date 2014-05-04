@@ -65,14 +65,6 @@ namespace WynnPSV
                 skin.ImageLocation = "http://api.wynncraft.com/avatar/" + nameSearch.Text +"/64.png";
                 if (noob) { skin.ImageLocation = "http://api.wynncraft.com/avatar/J6Unlimited/64.png"; }
                 nameDisp.Text = nameSearch.Text; rankDisp.Text = stats[0].Split(':')[1];
-                StringBuilder lol = new StringBuilder();
-                for (int i = 0; i <= (stats.GetLength(0) - 1); i++)
-                {
-                    string d = stats[i].Split(':')[1];
-                    lol.AppendFormat("{0}", d);
-                    lol.AppendLine();
-                }
-                File.WriteAllText("lol", lol.ToString());
                 loginDisp.Text = stats[1].Split(':')[1]; loginsDisp.Text = stats[12].Split(':')[1]; firstDisp.Text = stats[3].Split(':')[1].Remove(10);; playTimeDisp.Text = stats[2].Split(':')[1] + " hours"; serverDisp.Text = stats[5].Split(':')[1];
                 emeraldDisp.Text = stats[8].Split(':')[1]; itemsDisp.Text = stats[6].Split(':')[1]; chestsDisp.Text = stats[10].Split(':')[1]; blocksDisp.Text = stats[11].Split(':')[1];
                 mobsDisp.Text = stats[7].Split(':')[1]; pvpDisp.Text = stats[9].Split(':')[1]; deathsDisp.Text = stats[13].Split(':')[1];

@@ -88,7 +88,7 @@
             // 
             this.lastLogin.AutoSize = true;
             this.lastLogin.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold);
-            this.lastLogin.ForeColor = System.Drawing.Color.Purple;
+            this.lastLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.lastLogin.Location = new System.Drawing.Point(8, 49);
             this.lastLogin.Name = "lastLogin";
             this.lastLogin.Size = new System.Drawing.Size(162, 22);
@@ -99,7 +99,7 @@
             // 
             this.playtime.AutoSize = true;
             this.playtime.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold);
-            this.playtime.ForeColor = System.Drawing.Color.Purple;
+            this.playtime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.playtime.Location = new System.Drawing.Point(8, 115);
             this.playtime.Name = "playtime";
             this.playtime.Size = new System.Drawing.Size(141, 22);
@@ -110,7 +110,7 @@
             // 
             this.server.AutoSize = true;
             this.server.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold);
-            this.server.ForeColor = System.Drawing.Color.Purple;
+            this.server.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.server.Location = new System.Drawing.Point(8, 93);
             this.server.Name = "server";
             this.server.Size = new System.Drawing.Size(245, 22);
@@ -121,7 +121,7 @@
             // 
             this.itemsId.AutoSize = true;
             this.itemsId.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold);
-            this.itemsId.ForeColor = System.Drawing.Color.Purple;
+            this.itemsId.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.itemsId.Location = new System.Drawing.Point(8, 195);
             this.itemsId.Name = "itemsId";
             this.itemsId.Size = new System.Drawing.Size(238, 22);
@@ -132,7 +132,7 @@
             // 
             this.mobs.AutoSize = true;
             this.mobs.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold);
-            this.mobs.ForeColor = System.Drawing.Color.Purple;
+            this.mobs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.mobs.Location = new System.Drawing.Point(470, 53);
             this.mobs.Name = "mobs";
             this.mobs.Size = new System.Drawing.Size(168, 22);
@@ -143,7 +143,7 @@
             // 
             this.emeralds.AutoSize = true;
             this.emeralds.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold);
-            this.emeralds.ForeColor = System.Drawing.Color.Purple;
+            this.emeralds.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.emeralds.Location = new System.Drawing.Point(8, 173);
             this.emeralds.Name = "emeralds";
             this.emeralds.Size = new System.Drawing.Size(290, 22);
@@ -154,7 +154,7 @@
             // 
             this.pvp.AutoSize = true;
             this.pvp.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold);
-            this.pvp.ForeColor = System.Drawing.Color.Purple;
+            this.pvp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.pvp.Location = new System.Drawing.Point(470, 75);
             this.pvp.Name = "pvp";
             this.pvp.Size = new System.Drawing.Size(132, 22);
@@ -165,7 +165,7 @@
             // 
             this.chests.AutoSize = true;
             this.chests.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold);
-            this.chests.ForeColor = System.Drawing.Color.Purple;
+            this.chests.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.chests.Location = new System.Drawing.Point(8, 217);
             this.chests.Name = "chests";
             this.chests.Size = new System.Drawing.Size(209, 22);
@@ -176,7 +176,7 @@
             // 
             this.blocks.AutoSize = true;
             this.blocks.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold);
-            this.blocks.ForeColor = System.Drawing.Color.Purple;
+            this.blocks.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.blocks.Location = new System.Drawing.Point(8, 239);
             this.blocks.Name = "blocks";
             this.blocks.Size = new System.Drawing.Size(209, 22);
@@ -187,7 +187,7 @@
             // 
             this.logins.AutoSize = true;
             this.logins.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold);
-            this.logins.ForeColor = System.Drawing.Color.Purple;
+            this.logins.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.logins.Location = new System.Drawing.Point(8, 137);
             this.logins.Name = "logins";
             this.logins.Size = new System.Drawing.Size(107, 22);
@@ -198,7 +198,7 @@
             // 
             this.deaths.AutoSize = true;
             this.deaths.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold);
-            this.deaths.ForeColor = System.Drawing.Color.Purple;
+            this.deaths.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.deaths.Location = new System.Drawing.Point(470, 97);
             this.deaths.Name = "deaths";
             this.deaths.Size = new System.Drawing.Size(112, 22);
@@ -209,7 +209,7 @@
             // 
             this.wa.AutoSize = true;
             this.wa.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold);
-            this.wa.ForeColor = System.Drawing.Color.Purple;
+            this.wa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.wa.Location = new System.Drawing.Point(470, 177);
             this.wa.Name = "wa";
             this.wa.Size = new System.Drawing.Size(125, 22);
@@ -220,7 +220,7 @@
             // 
             this.ma.AutoSize = true;
             this.ma.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold);
-            this.ma.ForeColor = System.Drawing.Color.Purple;
+            this.ma.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.ma.Location = new System.Drawing.Point(470, 203);
             this.ma.Name = "ma";
             this.ma.Size = new System.Drawing.Size(82, 22);
@@ -231,7 +231,7 @@
             // 
             this.ar.AutoSize = true;
             this.ar.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold);
-            this.ar.ForeColor = System.Drawing.Color.Purple;
+            this.ar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.ar.Location = new System.Drawing.Point(470, 229);
             this.ar.Name = "ar";
             this.ar.Size = new System.Drawing.Size(118, 22);
@@ -242,7 +242,7 @@
             // 
             this.ass.AutoSize = true;
             this.ass.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold);
-            this.ass.ForeColor = System.Drawing.Color.Purple;
+            this.ass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.ass.Location = new System.Drawing.Point(470, 255);
             this.ass.Name = "ass";
             this.ass.Size = new System.Drawing.Size(143, 22);
@@ -253,7 +253,7 @@
             // 
             this.total.AutoSize = true;
             this.total.Font = new System.Drawing.Font("Minecraft", 17F, System.Drawing.FontStyle.Bold);
-            this.total.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.total.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.total.Location = new System.Drawing.Point(470, 279);
             this.total.Name = "total";
             this.total.Size = new System.Drawing.Size(87, 23);
@@ -298,7 +298,7 @@
             this.nameDisp.BackColor = System.Drawing.Color.Black;
             this.nameDisp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nameDisp.Font = new System.Drawing.Font("Minecraft", 15F);
-            this.nameDisp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.nameDisp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.nameDisp.Location = new System.Drawing.Point(105, 17);
             this.nameDisp.Name = "nameDisp";
             this.nameDisp.ReadOnly = true;
@@ -310,7 +310,7 @@
             this.loginDisp.BackColor = System.Drawing.Color.Black;
             this.loginDisp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.loginDisp.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loginDisp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.loginDisp.ForeColor = System.Drawing.Color.Maroon;
             this.loginDisp.Location = new System.Drawing.Point(166, 53);
             this.loginDisp.Name = "loginDisp";
             this.loginDisp.ReadOnly = true;
@@ -322,7 +322,7 @@
             this.serverDisp.BackColor = System.Drawing.Color.Black;
             this.serverDisp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.serverDisp.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.serverDisp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.serverDisp.ForeColor = System.Drawing.Color.Maroon;
             this.serverDisp.Location = new System.Drawing.Point(246, 97);
             this.serverDisp.Name = "serverDisp";
             this.serverDisp.ReadOnly = true;
@@ -334,7 +334,7 @@
             this.playTimeDisp.BackColor = System.Drawing.Color.Black;
             this.playTimeDisp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.playTimeDisp.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.playTimeDisp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.playTimeDisp.ForeColor = System.Drawing.Color.Maroon;
             this.playTimeDisp.Location = new System.Drawing.Point(147, 119);
             this.playTimeDisp.Name = "playTimeDisp";
             this.playTimeDisp.ReadOnly = true;
@@ -346,7 +346,7 @@
             this.loginsDisp.BackColor = System.Drawing.Color.Black;
             this.loginsDisp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.loginsDisp.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loginsDisp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.loginsDisp.ForeColor = System.Drawing.Color.Maroon;
             this.loginsDisp.Location = new System.Drawing.Point(121, 141);
             this.loginsDisp.Name = "loginsDisp";
             this.loginsDisp.ReadOnly = true;
@@ -358,7 +358,7 @@
             this.emeraldDisp.BackColor = System.Drawing.Color.Black;
             this.emeraldDisp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.emeraldDisp.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emeraldDisp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.emeraldDisp.ForeColor = System.Drawing.Color.Maroon;
             this.emeraldDisp.Location = new System.Drawing.Point(295, 177);
             this.emeraldDisp.Name = "emeraldDisp";
             this.emeraldDisp.ReadOnly = true;
@@ -370,7 +370,7 @@
             this.itemsDisp.BackColor = System.Drawing.Color.Black;
             this.itemsDisp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.itemsDisp.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.itemsDisp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.itemsDisp.ForeColor = System.Drawing.Color.Maroon;
             this.itemsDisp.Location = new System.Drawing.Point(244, 199);
             this.itemsDisp.Name = "itemsDisp";
             this.itemsDisp.ReadOnly = true;
@@ -382,7 +382,7 @@
             this.chestsDisp.BackColor = System.Drawing.Color.Black;
             this.chestsDisp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.chestsDisp.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chestsDisp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.chestsDisp.ForeColor = System.Drawing.Color.Maroon;
             this.chestsDisp.Location = new System.Drawing.Point(215, 221);
             this.chestsDisp.Name = "chestsDisp";
             this.chestsDisp.ReadOnly = true;
@@ -394,7 +394,7 @@
             this.blocksDisp.BackColor = System.Drawing.Color.Black;
             this.blocksDisp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.blocksDisp.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.blocksDisp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.blocksDisp.ForeColor = System.Drawing.Color.Maroon;
             this.blocksDisp.Location = new System.Drawing.Point(215, 243);
             this.blocksDisp.Name = "blocksDisp";
             this.blocksDisp.ReadOnly = true;
@@ -406,7 +406,7 @@
             this.mobsDisp.BackColor = System.Drawing.Color.Black;
             this.mobsDisp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.mobsDisp.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mobsDisp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.mobsDisp.ForeColor = System.Drawing.Color.Maroon;
             this.mobsDisp.Location = new System.Drawing.Point(637, 57);
             this.mobsDisp.Name = "mobsDisp";
             this.mobsDisp.ReadOnly = true;
@@ -418,7 +418,7 @@
             this.pvpDisp.BackColor = System.Drawing.Color.Black;
             this.pvpDisp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.pvpDisp.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pvpDisp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.pvpDisp.ForeColor = System.Drawing.Color.Maroon;
             this.pvpDisp.Location = new System.Drawing.Point(600, 79);
             this.pvpDisp.Name = "pvpDisp";
             this.pvpDisp.ReadOnly = true;
@@ -430,7 +430,7 @@
             this.deathsDisp.BackColor = System.Drawing.Color.Black;
             this.deathsDisp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.deathsDisp.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deathsDisp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.deathsDisp.ForeColor = System.Drawing.Color.Maroon;
             this.deathsDisp.Location = new System.Drawing.Point(580, 101);
             this.deathsDisp.Name = "deathsDisp";
             this.deathsDisp.ReadOnly = true;
@@ -442,7 +442,7 @@
             this.waDisp.BackColor = System.Drawing.Color.Black;
             this.waDisp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.waDisp.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.waDisp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.waDisp.ForeColor = System.Drawing.Color.Maroon;
             this.waDisp.Location = new System.Drawing.Point(591, 181);
             this.waDisp.Name = "waDisp";
             this.waDisp.ReadOnly = true;
@@ -454,7 +454,7 @@
             this.maDisp.BackColor = System.Drawing.Color.Black;
             this.maDisp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.maDisp.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maDisp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.maDisp.ForeColor = System.Drawing.Color.Maroon;
             this.maDisp.Location = new System.Drawing.Point(549, 207);
             this.maDisp.Name = "maDisp";
             this.maDisp.ReadOnly = true;
@@ -466,7 +466,7 @@
             this.arDisp.BackColor = System.Drawing.Color.Black;
             this.arDisp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.arDisp.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.arDisp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.arDisp.ForeColor = System.Drawing.Color.Maroon;
             this.arDisp.Location = new System.Drawing.Point(585, 233);
             this.arDisp.Name = "arDisp";
             this.arDisp.ReadOnly = true;
@@ -478,7 +478,7 @@
             this.assDisp.BackColor = System.Drawing.Color.Black;
             this.assDisp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.assDisp.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.assDisp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.assDisp.ForeColor = System.Drawing.Color.Maroon;
             this.assDisp.Location = new System.Drawing.Point(611, 259);
             this.assDisp.Name = "assDisp";
             this.assDisp.ReadOnly = true;
@@ -490,7 +490,7 @@
             this.totalDisp.BackColor = System.Drawing.Color.Black;
             this.totalDisp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.totalDisp.Font = new System.Drawing.Font("Minecraft", 13F);
-            this.totalDisp.ForeColor = System.Drawing.Color.Purple;
+            this.totalDisp.ForeColor = System.Drawing.Color.Maroon;
             this.totalDisp.Location = new System.Drawing.Point(556, 284);
             this.totalDisp.Name = "totalDisp";
             this.totalDisp.ReadOnly = true;
@@ -521,7 +521,7 @@
             // 
             this.first.AutoSize = true;
             this.first.Font = new System.Drawing.Font("Minecraft", 16F, System.Drawing.FontStyle.Bold);
-            this.first.ForeColor = System.Drawing.Color.Purple;
+            this.first.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.first.Location = new System.Drawing.Point(8, 71);
             this.first.Name = "first";
             this.first.Size = new System.Drawing.Size(169, 22);
@@ -533,7 +533,7 @@
             this.firstDisp.BackColor = System.Drawing.Color.Black;
             this.firstDisp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.firstDisp.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.firstDisp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.firstDisp.ForeColor = System.Drawing.Color.Maroon;
             this.firstDisp.Location = new System.Drawing.Point(171, 75);
             this.firstDisp.Name = "firstDisp";
             this.firstDisp.ReadOnly = true;
