@@ -70,6 +70,7 @@
             this.skin = new System.Windows.Forms.PictureBox();
             this.first = new System.Windows.Forms.Label();
             this.firstDisp = new System.Windows.Forms.TextBox();
+            this.sub = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.skin)).BeginInit();
             this.SuspendLayout();
             // 
@@ -279,14 +280,13 @@
             this.nameSearch.Name = "nameSearch";
             this.nameSearch.Size = new System.Drawing.Size(185, 23);
             this.nameSearch.TabIndex = 20;
-            this.nameSearch.TextChanged += new System.EventHandler(this.nameSearch_TextChanged);
             // 
             // invalid
             // 
             this.invalid.AutoSize = true;
             this.invalid.Font = new System.Drawing.Font("Minecraft", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.invalid.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.invalid.Location = new System.Drawing.Point(203, 356);
+            this.invalid.Location = new System.Drawing.Point(203, 331);
             this.invalid.Name = "invalid";
             this.invalid.Size = new System.Drawing.Size(153, 19);
             this.invalid.TabIndex = 21;
@@ -540,6 +540,19 @@
             this.firstDisp.Size = new System.Drawing.Size(185, 16);
             this.firstDisp.TabIndex = 42;
             // 
+            // sub
+            // 
+            this.sub.BackColor = System.Drawing.Color.White;
+            this.sub.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.sub.Font = new System.Drawing.Font("Minecraft", 11F);
+            this.sub.Location = new System.Drawing.Point(207, 356);
+            this.sub.Name = "sub";
+            this.sub.Size = new System.Drawing.Size(91, 23);
+            this.sub.TabIndex = 43;
+            this.sub.Text = "Submit";
+            this.sub.UseVisualStyleBackColor = false;
+            this.sub.Click += new System.EventHandler(this.sub_Click);
+            // 
             // WynnPSV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -547,6 +560,7 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.CausesValidation = false;
             this.ClientSize = new System.Drawing.Size(850, 391);
+            this.Controls.Add(this.sub);
             this.Controls.Add(this.firstDisp);
             this.Controls.Add(this.first);
             this.Controls.Add(this.skin);
@@ -593,7 +607,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "WynnPSV";
-            this.Text = "WynnPSV v1.11_1";
+            this.Text = "WynnPSV v1.11_2";
             ((System.ComponentModel.ISupportInitialize)(this.skin)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -643,6 +657,7 @@
         private System.Windows.Forms.PictureBox skin;
         private System.Windows.Forms.Label first;
         private System.Windows.Forms.TextBox firstDisp;
+        private System.Windows.Forms.Button sub;
     }
 }
 

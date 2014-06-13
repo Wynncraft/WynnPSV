@@ -19,7 +19,6 @@ namespace WynnPSV
         {
             InitializeComponent();
         }
-
         #region getStats
         public void getStats(string p)
         {
@@ -36,7 +35,7 @@ namespace WynnPSV
                 if (response == "false") { throw new System.Net.WebException(); }
                 s.Close();
                 res.Close();
-                string[] stats = new string[33];
+                string[] stats = new string[35];
                 stats = response.Split('"');
                 StringBuilder sb = new StringBuilder();
                 for (int i = 0; i <= (stats.GetLength(0) - 1); i++)
@@ -64,11 +63,11 @@ namespace WynnPSV
                 sb.Clear();
                 skin.ImageLocation = "http://api.wynncraft.com/avatar/" + nameSearch.Text +"/64.png";
                 if (noob) { skin.ImageLocation = "http://api.wynncraft.com/avatar/J6Unlimited/64.png"; }
-                nameDisp.Text = nameSearch.Text; rankDisp.Text = stats[0].Split(':')[1];
-                loginDisp.Text = stats[1].Split(':')[1]; loginsDisp.Text = stats[12].Split(':')[1]; firstDisp.Text = stats[3].Split(':')[1].Remove(10);; playTimeDisp.Text = stats[2].Split(':')[1] + " hours"; serverDisp.Text = stats[5].Split(':')[1];
-                emeraldDisp.Text = stats[8].Split(':')[1]; itemsDisp.Text = stats[6].Split(':')[1]; chestsDisp.Text = stats[10].Split(':')[1]; blocksDisp.Text = stats[11].Split(':')[1];
-                mobsDisp.Text = stats[7].Split(':')[1]; pvpDisp.Text = stats[9].Split(':')[1]; deathsDisp.Text = stats[13].Split(':')[1];
-                waDisp.Text = stats[14].Split(':')[1]; maDisp.Text = stats[15].Split(':')[1]; arDisp.Text = stats[16].Split(':')[1]; assDisp.Text = stats[17].Split(':')[1]; totalDisp.Text = stats[18].Split(':')[1].TrimEnd('}');
+                nameDisp.Text = nameSearch.Text; rankDisp.Text = stats[1].Split(':')[1];
+                loginDisp.Text = stats[2].Split(':')[1]; loginsDisp.Text = stats[13].Split(':')[1]; firstDisp.Text = stats[4].Split(':')[1].Remove(10); playTimeDisp.Text = stats[3].Split(':')[1] + " hours"; serverDisp.Text = stats[6].Split(':')[1];
+                emeraldDisp.Text = stats[9].Split(':')[1]; itemsDisp.Text = stats[7].Split(':')[1]; chestsDisp.Text = stats[11].Split(':')[1]; blocksDisp.Text = stats[12].Split(':')[1];
+                mobsDisp.Text = stats[8].Split(':')[1]; pvpDisp.Text = stats[10].Split(':')[1]; deathsDisp.Text = stats[14].Split(':')[1];
+                waDisp.Text = stats[15].Split(':')[1]; maDisp.Text = stats[16].Split(':')[1]; arDisp.Text = stats[17].Split(':')[1]; assDisp.Text = stats[18].Split(':')[1]; totalDisp.Text = stats[19].Split(':')[1].TrimEnd('}');
                 if (serverDisp.Text == "null") { serverDisp.Text = "Not Online"; }
                 if (noob) nameDisp.Text = "J6Unlimited";
                 switch (rankDisp.Text)
@@ -104,7 +103,7 @@ namespace WynnPSV
             #endregion
         }
         #endregion
-        private void nameSearch_TextChanged(object sender, EventArgs e)
+        private void sub_Click(object sender, EventArgs e)
         {
             getStats(nameSearch.Text);
         }
